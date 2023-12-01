@@ -1,0 +1,9 @@
+[package]
+name = "aoc-rs-2023"
+version = "0.1.0"
+edition = "2021"
+authors = ["Pierre Sudron"]
+license = "AGPL-3.0-or-later"
+
+[dependencies]
+itertools = "0.12.0"
