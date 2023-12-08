@@ -20,6 +20,13 @@ macro_rules! sample2 {
 }
 
 #[macro_export]
+macro_rules! sample3 {
+    () => {
+        include_str!(concat!("../../samples/", env!("CARGO_BIN_NAME"), "-3.txt",),)
+    };
+}
+
+#[macro_export]
 macro_rules! input {
     () => {
         include_str!(concat!("../../inputs/", env!("CARGO_BIN_NAME"), ".txt",),)
